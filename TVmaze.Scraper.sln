@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{6F9D882A-DADB-4F08-B3A5-48C2108ADABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2FB3972C-0606-47D9-939B-81B2C3428DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{9043DC09-FCAD-4D36-BF4E-D5B98F15D2A4}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0AC71228-544A-479F-921D-211F378590D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Domain", "TVmaze.Scraper.Domain\TVmaze.Scraper.Domain.csproj", "{0943E181-3BA2-4C7F-AA78-245242E6A773}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Application", "TVmaze.Scraper.Application\TVmaze.Scraper.Application.csproj", "{7754418B-FD31-41A3-B0B2-4423923CB49C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{32B66C65-D614-457A-9371-5CB064A1A2C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{922A836D-B7C6-4B28-8B85-7318432A64E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Persistence", "TVmaze.Scraper.Persistence\TVmaze.Scraper.Persistence.csproj", "{571B2325-0FCC-4196-8932-E5F858F196F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.WebAPI", "TVmaze.Scraper.WebAPI\TVmaze.Scraper.WebAPI.csproj", "{9F32CE53-1880-4AEC-BE22-4AA0A5462494}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Application.Tests", "TVmaze.Scraper.Application.Tests\TVmaze.Scraper.Application.Tests.csproj", "{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Functions", "TVmaze.Scraper.Functions\TVmaze.Scraper.Functions.csproj", "{F87E8D3F-D7E4-44B5-9D00-232E135130BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVmaze.Scraper.Infrastructure", "TVmaze.Scraper.Infrastructure\TVmaze.Scraper.Infrastructure.csproj", "{77EE6006-D295-4408-A47F-F14529AD753A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0943E181-3BA2-4C7F-AA78-245242E6A773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0943E181-3BA2-4C7F-AA78-245242E6A773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0943E181-3BA2-4C7F-AA78-245242E6A773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0943E181-3BA2-4C7F-AA78-245242E6A773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7754418B-FD31-41A3-B0B2-4423923CB49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7754418B-FD31-41A3-B0B2-4423923CB49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7754418B-FD31-41A3-B0B2-4423923CB49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7754418B-FD31-41A3-B0B2-4423923CB49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571B2325-0FCC-4196-8932-E5F858F196F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571B2325-0FCC-4196-8932-E5F858F196F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571B2325-0FCC-4196-8932-E5F858F196F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571B2325-0FCC-4196-8932-E5F858F196F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F32CE53-1880-4AEC-BE22-4AA0A5462494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F32CE53-1880-4AEC-BE22-4AA0A5462494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F32CE53-1880-4AEC-BE22-4AA0A5462494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F32CE53-1880-4AEC-BE22-4AA0A5462494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87E8D3F-D7E4-44B5-9D00-232E135130BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87E8D3F-D7E4-44B5-9D00-232E135130BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87E8D3F-D7E4-44B5-9D00-232E135130BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87E8D3F-D7E4-44B5-9D00-232E135130BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EE6006-D295-4408-A47F-F14529AD753A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EE6006-D295-4408-A47F-F14529AD753A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EE6006-D295-4408-A47F-F14529AD753A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EE6006-D295-4408-A47F-F14529AD753A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AC71228-544A-479F-921D-211F378590D7} = {6F9D882A-DADB-4F08-B3A5-48C2108ADABD}
+		{0943E181-3BA2-4C7F-AA78-245242E6A773} = {0AC71228-544A-479F-921D-211F378590D7}
+		{7754418B-FD31-41A3-B0B2-4423923CB49C} = {0AC71228-544A-479F-921D-211F378590D7}
+		{32B66C65-D614-457A-9371-5CB064A1A2C3} = {6F9D882A-DADB-4F08-B3A5-48C2108ADABD}
+		{922A836D-B7C6-4B28-8B85-7318432A64E1} = {6F9D882A-DADB-4F08-B3A5-48C2108ADABD}
+		{571B2325-0FCC-4196-8932-E5F858F196F1} = {32B66C65-D614-457A-9371-5CB064A1A2C3}
+		{9F32CE53-1880-4AEC-BE22-4AA0A5462494} = {922A836D-B7C6-4B28-8B85-7318432A64E1}
+		{C86D761F-2C87-47EE-97D6-DD3D1BFED9E6} = {2FB3972C-0606-47D9-939B-81B2C3428DF1}
+		{F87E8D3F-D7E4-44B5-9D00-232E135130BD} = {922A836D-B7C6-4B28-8B85-7318432A64E1}
+		{77EE6006-D295-4408-A47F-F14529AD753A} = {32B66C65-D614-457A-9371-5CB064A1A2C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E53DE5F6-2010-49B0-90EA-92701146E7B9}
+	EndGlobalSection
+EndGlobal
